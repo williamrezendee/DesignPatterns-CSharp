@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4D91BC02-9776-4189-B5B5-55A56D70190E}</ProjectGuid>
+    <ProjectGuid>{EC0416E1-0090-4660-A198-D44D53935C32}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>A1._1_StrategyPattern</RootNamespace>
-    <AssemblyName>A1.1-StrategyPattern</AssemblyName>
+    <RootNamespace>A1._2_InvestimentStrategy</RootNamespace>
+    <AssemblyName>A1.2-InvestimentStrategy</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalculadorDeImpostos.cs" />
-    <Compile Include="ICCC.cs" />
-    <Compile Include="ICMS.cs" />
-    <Compile Include="Imposto.cs" />
-    <Compile Include="ISS.cs" />
-    <Compile Include="Orcamento.cs" />
+    <Compile Include="Arrojado.cs" />
+    <Compile Include="Conservador.cs" />
+    <Compile Include="Investimento.cs" />
+    <Compile Include="Moderado.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealizadorDeInvestimentos.cs" />
+    <Compile Include="Saldo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
